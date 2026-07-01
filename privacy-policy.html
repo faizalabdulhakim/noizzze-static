@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Noizzze</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 24px 60px 24px;
+  }
+  h1 {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0 0 4px 0;
+    padding: 0;
+    color: #000000;
+  }
+  .updated {
+    font-size: 13px;
+    color: #555555;
+    margin: 0 0 32px 0;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 32px 0 12px 0;
+    padding: 0;
+    color: #000000;
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 4px;
+  }
+  p {
+    margin: 0 0 12px 0;
+    padding: 0;
+  }
+  ul {
+    margin: 0 0 12px 0;
+    padding: 0 0 0 24px;
+  }
+  li {
+    margin: 0 0 6px 0;
+    padding: 0;
+  }
+  strong {
+    font-weight: bold;
+  }
+  a {
+    color: #0000EE;
+    text-decoration: underline;
+  }
+  a:visited {
+    color: #551A8B;
+  }
+  hr {
+    border: none;
+    border-top: 1px solid #CCCCCC;
+    margin: 40px 0 0 0;
+  }
+  .footer {
+    font-size: 12px;
+    color: #777777;
+    margin-top: 12px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: July 1, 2026</p>
+
+<p>
+  This Privacy Policy describes how <strong>Noizzze</strong> ("we," "our," or "the app")
+  handles your information. Noizzze is a white noise and ambient sound app that lets you
+  mix and play relaxing sounds.
+</p>
+
+<h2>1. Information We Collect</h2>
+
+<h2>1.1. Google Sign-In</h2>
+<p>
+  When you choose to sign in with your Google account, we collect the following information
+  from your Google profile:
+</p>
+<ul>
+  <li><strong>Display name</strong> — as shown on your Google account</li>
+  <li><strong>Email address</strong> — your Gmail or Google-associated email</li>
+  <li><strong>Profile photo URL</strong> — a link to your public Google profile picture</li>
+  <li><strong>Firebase UID</strong> — a unique, anonymized identifier assigned by Firebase Authentication</li>
+</ul>
+
+<h2>1.2. Guest Mode</h2>
+<p>
+  If you choose "Continue as Guest," we do <strong>not</strong> collect or store any personal
+  information. You can use all free features of the app without providing any data.
+</p>
+
+<h2>1.3. Premium Purchase</h2>
+<p>
+  When you purchase the premium upgrade, all payment processing is handled entirely by
+  <strong>Google Play Billing</strong>. We do <strong>not</strong> collect, store, or
+  transmit your credit card number, billing address, or any other payment details. We
+  store only a flag indicating whether your account has premium access.
+</p>
+
+<h2>2. App Permissions</h2>
+<p>Noizzze requests the following Android permissions and uses them only as described:</p>
+<ul>
+  <li><strong>INTERNET</strong> — required for Google Sign-In, loading sound data, and communicating with our backend server.</li>
+  <li><strong>WAKE_LOCK</strong> — keeps the device awake while audio is playing so your sounds continue when the screen turns off.</li>
+  <li><strong>READ_EXTERNAL_STORAGE</strong> / <strong>READ_MEDIA_AUDIO</strong> — allows the app to read audio files from your device if you choose to play local files.</li>
+  <li><strong>FOREGROUND_SERVICE</strong> — enables background audio playback so sounds keep playing while you use other apps.</li>
+  <li><strong>POST_NOTIFICATIONS</strong> — shows a media playback notification with play/pause controls during active playback.</li>
+</ul>
+<p>
+  Noizzze does <strong>not</strong> request or access: location, contacts, camera,
+  microphone, phone state, SMS, or device identifiers.
+</p>
+
+<h2>3. How We Use Your Information</h2>
+<p>We use the information collected through Google Sign-In solely to:</p>
+<ul>
+  <li>Create and identify your account on our service</li>
+  <li>Display your name and profile picture within the app</li>
+  <li>Associate your premium purchase with your account so you can restore it on other devices</li>
+</ul>
+<p>
+  We do <strong>not</strong> use your information for advertising, marketing, profiling,
+  or automated decision-making.
+</p>
+
+<h2>4. Data Storage and Transmission</h2>
+<p>
+  Your account information (name, email, profile photo URL, user ID, and premium status)
+  is stored:
+</p>
+<ul>
+  <li><strong>On your device</strong> — in the app's local storage (SharedPreferences)</li>
+  <li><strong>On our backend server</strong> — at <code>api.noizzze.app</code>, to
+    support account restoration across devices</li>
+</ul>
+<p>
+  Audio sounds and mixes are loaded from our server but contain no personal information.
+</p>
+
+<h2>5. Android Auto Backup</h2>
+<p>
+  Android devices with Google Backup enabled may back up app data (including account
+  information stored in SharedPreferences) to Google Drive. This is controlled by
+  your device's system settings, not by Noizzze. You can disable automatic backup
+  in your Android Settings under System &gt; Backup.
+</p>
+
+<h2>6. Third-Party Services</h2>
+<p>Noizzze integrates the following third-party services:</p>
+<ul>
+  <li><strong>Firebase Authentication</strong> (Google LLC) — used for Google Sign-In.
+    Firebase processes your Google account credentials to authenticate you.
+    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+  <li><strong>Google Play Billing</strong> (Google LLC) — processes in-app purchases.
+    All payment data is handled by Google; we never see or store your payment details.
+    <a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&amp;ldt=privacynotice" target="_blank" rel="noopener">Google Payments Privacy Notice</a></li>
+</ul>
+
+<h2>7. Analytics and Tracking</h2>
+<p>
+  Noizzze does <strong>not</strong> include any analytics SDKs, crash reporting tools, or
+  advertising frameworks. We do not track your usage, collect behavioral data, or use
+  cookies. There is no Firebase Analytics, no Google AdMob, and no third-party
+  tracking of any kind.
+</p>
+
+<h2>8. Children's Privacy</h2>
+<p>
+  Noizzze is not directed at children under the age of 13 and we do not knowingly
+  collect personal information from children. If you are a parent or guardian and
+  believe your child has provided us with personal information, please contact us
+  and we will delete it.
+</p>
+
+<h2>9. Data Security</h2>
+<p>
+  All communication between the app and our backend server is encrypted using HTTPS.
+  We store the minimum amount of data necessary to provide the service and do not
+  share your personal information with any third parties except as necessary to
+  provide the services described above (Firebase for authentication, Google Play
+  for billing).
+</p>
+
+<h2>10. Your Rights</h2>
+<p>You have the right to:</p>
+<ul>
+  <li><strong>Access</strong> your data — view your account information in the
+    Settings screen of the app</li>
+  <li><strong>Delete</strong> your data — log out and uninstall the app to remove
+    local data, or contact us to request deletion of your server-side data</li>
+  <li><strong>Use the app without an account</strong> — choose "Continue as Guest"
+    to use Noizzze without providing any personal information</li>
+</ul>
+
+<h2>11. Changes to This Policy</h2>
+<p>
+  We may update this Privacy Policy from time to time. When we do, we will update the
+  "Last updated" date at the top of this page. We encourage you to review this policy
+  periodically. Continued use of the app after changes constitutes acceptance of the
+  updated policy.
+</p>
+
+<h2>12. Contact Us</h2>
+<p>
+  If you have questions about this Privacy Policy or wish to exercise your data rights,
+  please contact us at:
+</p>
+<p>
+  <strong>Email:</strong>
+  <a href="mailto:faizal@triyakom.com">faizal@triyakom.com</a>
+</p>
+<p>
+  <strong>Developer:</strong> Triyakom
+</p>
+
+<hr>
+<p class="footer">
+  &copy; 2026 Triyakom. Noizzze — the only noise you want.
+</p>
+
+</div>
+
+</body>
+</html>
